@@ -1,1 +1,9 @@
+# Get user input
+user_input = input("Enter a line of text: ")
+
+# Open the file in append mode and write the user input
+with open("output.txt", "a") as file:
+    file.write(user_input + "\n")
+
+print("Text added to 'output.txt'.")
 
